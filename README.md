@@ -2,9 +2,6 @@
 
 A Streamlit-based web application for automating parking reservations at Brighton Resort using Selenium WebDriver for educational purposes.
 
-## Description
-
-Brighton Bot automates the process of reserving parking spots at Brighton Resort through the Honk mobile platform. It features a user-friendly web interface built with Streamlit and uses Selenium for web automation.
 
 ## Prerequisites
 
