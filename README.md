@@ -31,7 +31,7 @@ Before using the bot, ensure you have:
    ```
 4. Run the Streamlit app:
    ```bash
-   streamlit run main_v4_streamlit_working.py
+   streamlit run main_streamlit.py
    ```
 5. Update the ChromeDriver path in the code to match your system's path.
 
@@ -45,7 +45,7 @@ Before using the bot, ensure you have:
    - Click "Start Reservation"
 2. Alternatively, run the script directly from the command line:
    ```bash
-   python main_v4_streamlit_working.py
+   python main_streamlit.py
    ```
 
 ## Important Notes
