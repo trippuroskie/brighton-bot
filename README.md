@@ -17,7 +17,7 @@ Before using the bot, ensure you have:
 
 1. Clone the repository: 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/trippuroskie/brighton-bot.git)
    cd brighton-bot
    ```
 2. Install the required packages:
