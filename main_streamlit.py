@@ -340,7 +340,7 @@ with st.container():
             if not username or not password or not target_date:
                 st.error('Please fill in all required fields')
             else:
-                chromedriver_path = "/Users/trippuroskie/Desktop/Projects/Selenium/ParkingResBot/chromedriver"
+                chromedriver_path = "chromedriver"
                 bot = ReserveDate(chromedriver_path)
                 bot.make_reservation(
                     username,
