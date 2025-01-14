@@ -343,7 +343,8 @@ with st.container():
             if not username or not password or not target_date:
                 st.error('Please fill in all required fields')
             else:
-                chromedriver_path = "chromedriver"
+                # Get absolute path to chromedriver
+                chromedriver_path = os.path.join(os.path.dirname(__file__), "chromedriver")
                 bot = ReserveDate(chromedriver_path)
                 bot.make_reservation(
                     username,
