@@ -1,6 +1,6 @@
 # Brighton Bot
 
-A Streamlit-based web application for automating parking reservations at Brighton Resort using Selenium WebDriver.
+A Streamlit-based web application for automating parking reservations at Brighton Resort using Selenium WebDriver for educational purposes.
 
 ## Description
 
