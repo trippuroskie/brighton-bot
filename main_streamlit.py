@@ -233,7 +233,10 @@ class ReserveDate:
             self.close()
 
 def add_bg_from_local(image_file):
-    with open(image_file, "rb") as image_file:
+    # Get absolute path to the image
+    image_path = os.path.join(os.path.dirname(__file__), image_file)
+    
+    with open(image_path, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
     st.markdown(
     f"""
@@ -249,8 +252,8 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 
-# Add the background image
-add_bg_from_local('./brighton.png')
+# Change the image path reference to use just the filename
+add_bg_from_local('brighton.png')
 
 # Add custom CSS for the container
 st.markdown("""
